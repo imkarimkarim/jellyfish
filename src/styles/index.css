@@ -52,3 +52,15 @@
         @apply bg-clip-text text-transparent bg-gradient-to-r from-[#F869B6] to-[#D34CD9];
     }
 }
+
+/* debug utils */
+
+.d {
+    border: 1px solid red;
+}
+.dd {
+    border: 1px solid yellow;
+}
+.ddd {
+    border: 1px solid green;
+}
