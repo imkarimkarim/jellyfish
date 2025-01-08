@@ -13,7 +13,7 @@ const ServicesCard = ({
                 <GradientIconBox>{icon}</GradientIconBox>
                 <div className="py-6 mt-4">
                     {!isItPublished && (
-                        <span className="purple-gradient-text text-sm leading-6 font-medium font-robotoMono">
+                        <span className="purple-gradient-text text-sm leading-6 font-medium font-roboto-mono">
                             Coming Soon
                         </span>
                     )}
@@ -21,7 +21,7 @@ const ServicesCard = ({
                         {title}
                     </p>
                 </div>
-                <p className="text-[#80899F] text-center text-lg font-robotoMono leading-5">
+                <p className="text-[#80899F] text-center text-lg font-roboto-mono leading-5">
                     {description}
                 </p>
             </div>

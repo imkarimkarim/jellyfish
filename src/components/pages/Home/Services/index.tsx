@@ -5,7 +5,7 @@ import AnimateWrapper from "@/components/AnimateWrapper";
 
 const ServicesSection = () => {
     return (
-        <section className="space-y-[84px] mt-20">
+        <section className="space-y-[84px] ">
             <SectionTitle className="text-center">Our Services</SectionTitle>
             <AnimateWrapper delay={0.4}>
                 <div className="flex justify-center gap-4">

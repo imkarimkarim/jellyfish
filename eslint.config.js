@@ -34,6 +34,7 @@ export default [
                 },
             ],
             "prettier/prettier": "warn", // Prettier rule
+            "@typescript-eslint/no-explicit-any": "off",
         },
     },
 ];

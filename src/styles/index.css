@@ -51,6 +51,17 @@
     .purple-gradient-text {
         @apply bg-clip-text text-transparent bg-gradient-to-r from-[#F869B6] to-[#D34CD9];
     }
+    /* .gradient-border::before {
+        content: "";
+        position: absolute;
+
+        @apply scale-105
+        rounded-[14px]  
+        absolute z-10   inset-[-1000%]
+        transition-all animate-w     duration-1000
+    bg-[conic-gradient(from_180deg_at_50%_50%,#A0C5F7_24.8%,#BFE0F0_45.88%,#111628_62%)]
+    opacity-100  
+    } */
 }
 
 /* debug utils */

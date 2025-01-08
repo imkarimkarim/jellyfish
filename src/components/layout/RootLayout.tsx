@@ -1,4 +1,5 @@
 import { Outlet, useLocation } from "react-router-dom";
+import Footer from "./Footer";
 
 const RootLayout = () => {
     const { pathname } = useLocation();
@@ -25,9 +26,12 @@ const RootLayout = () => {
                         "linear-gradient(269.54deg, #05060F 0.39%, rgba(5, 6, 15, 0) 35.21%, rgba(5, 6, 15, 0) 64.87%, #05060F 99.6%)",
                 }}
             ></div>
-            <main className="container mx-auto">
-                <Outlet />
-            </main>
+            <div className="relative z-50">
+                <main className="container mx-auto ">
+                    <Outlet />
+                </main>
+                <Footer />
+            </div>
         </div>
     );
 };
