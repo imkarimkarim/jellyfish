@@ -10,7 +10,7 @@ interface AnimatedGridPatternProps {
     height?: number;
     x?: number;
     y?: number;
-    strokeDasharray?: any;
+    strokeDasharray?: string | number | undefined;
     numSquares?: number;
     className?: string;
     maxOpacity?: number;
@@ -28,6 +28,7 @@ export default function AnimatedGridPattern({
     className,
     maxOpacity = 0.5,
     duration = 4,
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     repeatDelay = 0.5,
     ...props
 }: AnimatedGridPatternProps) {
