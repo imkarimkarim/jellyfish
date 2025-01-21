@@ -1,5 +1,6 @@
 import { Outlet, useLocation } from "react-router-dom";
 import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const RootLayout = () => {
     const { pathname } = useLocation();
@@ -27,6 +28,7 @@ const RootLayout = () => {
                 }}
             ></div>
             <div className="relative z-50">
+                <Navbar />
                 <main className="container mx-auto ">
                     <Outlet />
                 </main>
